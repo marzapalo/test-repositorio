@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    //16px
+    // rem: referencia al tamaño base desde la etiqueta root (html)
+    //10px --> 1 rem
+    //30px --> 3 rem
+    //150px --> 15 rem
+
+    //16 px === 100%
+    //10 px === ?
+    font-size:62.5%;
+}

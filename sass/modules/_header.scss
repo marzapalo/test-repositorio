@@ -28,8 +28,30 @@
                         font-family: $font-mont;
                         padding: 1rem .5rem;                        
                         display: block;// para no sobreponer el bloque
+                        transition: all .3s;
+                        &:hover{
+                            color:#fec503;//Cambiar el color del menu cuando pasa el mouse
+                            transition: all .3s; //el tiempo de activacion del menu
+                        }
                     }
                 }        
+            }
+        }
+    }
+    &__bienvenida{
+        color: white;
+        text-align: center;
+        &__contenedor{
+            &--subtitulo{
+                font-family: $font-mont;
+                color: white ;
+                font-size: 3.5rem;
+              /*   font-style: italic;        */   
+            }
+            &--titulo{
+                font-family: $font-mont;
+                font-size: 5.5rem;
+                text-transform: uppercase; 
             }
         }
     }
